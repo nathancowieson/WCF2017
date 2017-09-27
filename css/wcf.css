@@ -1,0 +1,302 @@
+.navbar-brand {
+    padding: 0px;
+}
+.navbar-brand>img {
+  height: 80%;
+  padding: 0px 0px;
+  width: auto;
+  text-align: center;  
+}
+
+.mynavbar {
+    position: fixed !important;
+    top: 0px;
+    width: 100%;
+}
+
+ @media (max-width: 550px) {
+     .big-container {
+         display: none;
+     }
+ }
+ @media (min-width: 550px) {
+     .small-container {
+         display: none;
+     }
+ }
+ /* Responsive iFrame */
+ .responsive-iframe-container {
+     position: relative;
+     padding-bottom: 56.25%;
+     padding-top: 30px;
+     height: 0;
+     overflow: hidden;
+ }
+ .responsive-iframe-container iframe,   
+ .vresponsive-iframe-container object,  
+ .vresponsive-iframe-container embed {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+ }
+
+		      
+
+
+
+#bannerimage {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: url('../images/woodland-path.jpg');
+    height: 150px;
+    background-color: purple;
+    background-position: center;
+    z-index:1;
+}
+
+#bannertext {
+    color: #FFFFFF;
+    z-index:1;
+    position: fixed;
+    top: 60px;
+    left: 200px;
+    width: 100%;
+    font-family: 'Droid Serif';
+    text-decoration: underline;
+
+}
+
+.navbar-default {
+	background-color:transparent;
+	border-color:transparent;
+	background-image:none;
+	box-shadow:none;
+}
+
+#wcf_logo {
+    opacity: 1.0;
+}
+
+#wcf_logo:hover {
+    opacity: 0.8;
+}
+
+#wcf_body_style {
+    font-family: 'Droid Serif';
+    font-size: 130%;
+    color: #585858;
+    padding-top: 15px;
+}
+
+#wcf_link_style {
+    font-family: 'Droid Serif';
+    color: #585858;
+}
+
+#wcf_link_style:hover {
+    font-family: 'Droid Serif';
+    color: #697de2;
+}
+
+
+
+#move_below_banner {
+    padding-top: 100px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    width: 100%;
+}
+
+.smaller {
+    font-size: 90%;
+}
+
+.bigger {
+    font-size: 110%;
+}
+
+.panel-kids-work {
+    border-color: #036ad9;
+}
+
+.panel-kids-work > .panel-body {
+    font-family: 'Droid Serif';
+    font-size: 100%;
+    color: #585858;
+    padding-top: 15px;
+    font-style: italic;
+}
+
+
+.panel-kids-work > .panel-heading {
+    color: #000000;
+    background-image: url(../images/crayons.jpg);
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.panel-worship {
+    border-color: #434b75;
+}
+
+.panel-worship > .panel-body {
+    font-family: 'Droid Serif';
+    font-size: 100%;
+    color: #585858;
+    padding-top: 15px;
+    font-style: italic;
+}
+
+
+.panel-worship > .panel-heading {
+    color: #FFFFFF;
+    background-image: url(../images/worship.jpg);
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.panel-balsam {
+    border-color: #7878A2;
+}
+
+.panel-balsam > .panel-body {
+    font-family: 'Droid Serif';
+    font-size: 100%;
+    color: #585858;
+    padding-top: 15px;
+    font-style: italic;
+}
+
+
+.panel-balsam > .panel-heading {
+    color: #000000;
+    background-image: url(../images/balsam_logo.jpg);
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.panel-lifted {
+    border-color: #db5f9c;
+}
+
+.panel-lifted > .panel-body {
+    font-family: 'Droid Serif';
+    font-size: 100%;
+    color: #585858;
+    padding-top: 15px;
+    font-style: italic;
+}
+
+
+.panel-lifted > .panel-heading {
+    color: #000000;
+    background-image: url(../images/lifted.jpg);
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.panel-welcome {
+    border-color: #264113;
+}
+
+.panel-welcome > .panel-body {
+    font-family: 'Droid Serif';
+    font-size: 100%;
+    color: #585858;
+    padding-top: 15px;
+    font-style: italic;
+}
+
+
+.panel-welcome > .panel-heading {
+    color: #FFFFFF;
+    background-image: url(../images/cafe.jpg);
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.panel-streetpastors {
+    border-color: #2d3077;
+}
+
+.panel-streetpastors > .panel-body {
+    font-family: 'Droid Serif';
+    font-size: 100%;
+    color: #585858;
+    padding-top: 15px;
+    font-style: italic;
+}
+
+
+.panel-streetpastors > .panel-heading {
+    color: #000000;
+    background-image: url(../images/streetpastors.jpg);
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.panel-pastoral {
+    border-color: #2b3710;
+}
+
+.panel-pastoral > .panel-body {
+    font-family: 'Droid Serif';
+    font-size: 100%;
+    color: #585858;
+    padding-top: 15px;
+    font-style: italic;
+}
+
+
+.panel-pastoral > .panel-heading {
+    color: #FFFFFF;
+    background-image: url(../images/woodland-path.jpg);
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.dropdown:hover .dropdown-menu {
+display: block;
+}
+
+.leadership_row {
+    height: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.leadership_text {
+    justify-content: left;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.contact_list {
+    list-style-type: none;
+}
