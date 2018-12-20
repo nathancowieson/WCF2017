@@ -54,7 +54,6 @@ document.getElementById("myNav").innerHTML =
     + "        <li><a href='./events.html'>What\'s on</a></li><!-- calendar of upcoming events -->"
     + "        <li><a href='./leadership.html'>Leadership</a></li><!-- pics and desc of elders -->"
     + "        <li><a href='./contact.html'>Contact</a></li>"
-    + "        <li><a href='./vacancy.html'>Vacancy</a></li>"
     + "      </ul>"
     + "    </div><!--/.nav-collapse -->"
     + "  </div>"
